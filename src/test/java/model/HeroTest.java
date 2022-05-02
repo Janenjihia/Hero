@@ -5,9 +5,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class HeroTest {
+//    instantiate all properties expected for Hero
 
-//    Test for ability to instantiate new hero
 Hero hero = new Hero("jane", 25, "Empathy", "kindness", 1);
+    //    Test for ability to instantiate new hero
     @Test
     public void NewHeroGetsCorrectlyCreated_true() throws Exception {
         

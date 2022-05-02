@@ -15,8 +15,19 @@ public class squadTest {
 //    @After
 //    public void tearDown() throws Exception {
 //    }
+//    instantiate all properties expected for Squad
+Squad squad = new Squad("Aces", 5, "Medicate the less privileged who are sick",  1);
+    @Test
+    public void NewSquadGetsCorrectlyCreated_true() throws Exception {
 
-
+        Squad squad= new Squad ("jane", 25, "Medicate the less privileged who are sick", 1);
+        assertEquals(true, true);
+    }
+    //    test to get hero name
+    @Test
+    public void squadName () {
+        assertEquals("jane", squad.getSquadName());
+    }
 
 
 }
