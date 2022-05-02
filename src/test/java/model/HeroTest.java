@@ -17,18 +17,18 @@ Hero hero = new Hero("jane", 25, "Empathy", "kindness", 1);
 
 //    test to get hero name
      @Test
-     public void getHeroName (){
+     public void getHeroName () {
         assertEquals("jane", hero.getHeroName());
      }
      
 //    test to get hero age
      @Test
-     public void getAge(){
+     public void getAge() {
          assertEquals(25, hero.getHeroAge());
      }
     //    test to get hero strength
     @Test
-    public void getStrength(){
+    public void getStrength() {
         assertEquals("Empathy", hero.getHeroStrength());
     }
     //    test to get hero weakness
