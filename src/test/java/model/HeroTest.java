@@ -37,5 +37,8 @@ Hero hero = new Hero("jane", 25, "Empathy", "kindness", 1);
         assertEquals("kindness", hero.getHeroWeakness());
     }
     //    test to get hero id
-
+    @Test
+    public void getId(){
+        assertEquals(1, hero.getHeroId());
+    }
 }

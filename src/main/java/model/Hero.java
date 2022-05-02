@@ -39,4 +39,8 @@ public class Hero {
     public String getHeroWeakness() {
         return Weakness;
     }
+
+    public int getHeroId() {
+        return Id;
+    }
 }
