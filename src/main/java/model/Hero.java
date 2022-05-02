@@ -35,4 +35,8 @@ public class Hero {
     public String getHeroStrength() {
         return strength;
     }
+
+    public String getHeroWeakness() {
+        return Weakness;
+    }
 }
