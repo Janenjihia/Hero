@@ -7,12 +7,18 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class HeroTest {
+
+    Hero hero= new Hero();
     @Test
     public void NewHeroGetsCorrectlyCreated_true() throws Exception {
       Hero hero = new Hero();
         assertEquals(true, hero instanceof Hero);
     }
 
+@Test
+     public void getHeroName (){
+    assertEquals("Barry", hero.getHeroName());
+}
 
 
 }
