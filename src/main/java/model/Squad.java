@@ -17,4 +17,16 @@ public class Squad {
     public String getSquadName() {
         return squadName;
     }
+
+    public int getMaxSize() {
+        return maxSize;
+    }
+
+    public String getCause() {
+        return cause;
+    }
+
+    public int getCode() {
+        return squadCode;
+    }
 }
